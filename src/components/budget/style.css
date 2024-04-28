@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainDivE {
+  background-color: antiquewhite;
+  height: 2000vh;
+  margin: 0;
+}
+
+.homeDiv22 {
+  padding: 50px 100px;
+}
+
+@media only screen and (max-width: 800px) {
+  .homeDiv22 {
+    padding: 5px 10px;
+    /* border: 3px solid red; */
+  }
+}
+
+.tableDiv {
+  margin-top: 10px;
+}
+
+.editDelete {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.deleteBudP {
+  margin-bottom: 15px;
+  font-size: 20px;
+}

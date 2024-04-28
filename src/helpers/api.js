@@ -3,7 +3,7 @@ import Helper from "./helper";
 
 function callApi(method, callUrl, requestPayload) {
   const token = Helper.getItem("TOKEN");
-  const endpoint = "https://personal-budget-server-production.up.railway.app";
+  const endpoint = "https://king-prawn-app-2i8vt.ondigitalocean.app";
   let headers = {
     "Content-Type": "application/json",
     Accept: "application/json",

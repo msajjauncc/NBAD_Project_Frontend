@@ -61,8 +61,10 @@ function Login() {
               ]}
             >
               <Input
+                className="login-form"
                 prefix={<UserOutlined className="site-form-item-icon" />}
                 type="email"
+                name="email"
                 placeholder="Enter email"
               />
             </Form.Item>
@@ -82,6 +84,8 @@ function Login() {
               ]}
             >
               <Input.Password
+                className="login-form"
+                name="password"
                 prefix={<LockOutlined className="site-form-item-icon" />}
                 placeholder="Enter password"
               />
